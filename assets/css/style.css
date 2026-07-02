@@ -34,9 +34,9 @@ main{
 }
 .title-cats{
     text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .cards{
-    margin-left: 15px;
     width: 300px;
     border: 3px solid #22223b;
     border-radius: 8px;
@@ -48,4 +48,12 @@ main{
 }
 .imgs{
     padding-top: 10px;
+}
+.cards-cats{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.cards-h3{
+    padding: 15px 0px 0px 10px;
 }
