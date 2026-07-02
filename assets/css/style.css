@@ -69,3 +69,8 @@ main{
     display: flex;
     justify-content: space-evenly;
 }
+.ft-1{
+    margin-top: 25px;
+    margin-bottom: 10px;
+    text-align: center;
+}
