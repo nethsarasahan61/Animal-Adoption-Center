@@ -1,6 +1,9 @@
 *{
     margin: 0;
 }
+.body-1{
+    background-color: #f2e9e4;
+}
 main{
     padding-top: 70px;
 }
@@ -28,4 +31,78 @@ main{
     border: 2px solid #c9ada7;
     transform: scale(1.2);
     transition: .6s;
+}
+.title-cats{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.cards{
+    width: 300px;
+    border: 3px solid #22223b;
+    border-radius: 8px;
+    transition: .7s;
+}
+.cards:hover{
+    transform: scale(1.05);
+    transition: .7s;
+}
+.imgs{
+    padding-top: 10px;
+}
+.cards-cats{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.cards-h3{
+    padding: 15px 0px 0px 10px;
+}
+.Dogs{
+    margin-top: 15px;
+}
+.title-dogs{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.cards-dogs{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.ft-1{
+    margin-top: 25px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.title{
+    display: flex;
+    margin-top: 20px;
+}
+.about-us{
+    width: 50%;
+    text-align: center;
+}
+.about-us p{
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+.about-team{
+    width: 50%;
+}
+.about-team h1{
+    text-align: center;
+}
+.team{
+    display: flex;
+    margin-top: 53px;
+    justify-content: space-evenly;
+}
+.roles{
+    height: 350px;
+}
+.role-div{
+    margin-top: 10PX;
+    max-width: 200px;
 }
