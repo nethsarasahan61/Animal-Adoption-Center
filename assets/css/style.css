@@ -74,3 +74,35 @@ main{
     margin-bottom: 10px;
     text-align: center;
 }
+.title{
+    display: flex;
+    margin-top: 20px;
+}
+.about-us{
+    width: 50%;
+    text-align: center;
+}
+.about-us p{
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+.about-team{
+    width: 50%;
+}
+.about-team h1{
+    text-align: center;
+}
+.team{
+    display: flex;
+    margin-top: 53px;
+    justify-content: space-evenly;
+}
+.roles{
+    height: 350px;
+}
+.role-div{
+    margin-top: 10PX;
+    max-width: 200px;
+}
