@@ -43,7 +43,7 @@ main{
     transition: .7s;
 }
 .cards:hover{
-    transform: scale(1.1);
+    transform: scale(1.05);
     transition: .7s;
 }
 .imgs{
@@ -56,4 +56,16 @@ main{
 }
 .cards-h3{
     padding: 15px 0px 0px 10px;
+}
+.Dogs{
+    margin-top: 15px;
+}
+.title-dogs{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.cards-dogs{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-evenly;
 }
